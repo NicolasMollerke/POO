@@ -9,5 +9,4 @@ export class Personagem{
     vidaAtual: number = 0;
     vidaMaxima: number = 0;
     poderAtaque: number = 0;
-
 }
