@@ -30,5 +30,7 @@ export class Personagem{
         this.poderAtaque += incrementoDoTreino + this.poderAtaque*1.1;
     }
 
-    
+    estaVivo() {
+        return (this.vidaAtual > 0)
+    }
 }
