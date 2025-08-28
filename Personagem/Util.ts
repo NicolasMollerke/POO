@@ -10,13 +10,8 @@ export class Util{
         const randomName = faker.person.firstName();
         return randomName
     }
-    
-    static gerarEmail(nome){
-        return faker.internet.email
-    }
 }
 
 for (let index = 0; index < 10; index++) {
     const nome = Util.gerarNome()
-    const email = Util.gerarEmail(nome)
 }
