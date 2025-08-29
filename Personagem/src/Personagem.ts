@@ -33,4 +33,27 @@ export class Personagem{
     estaVivo() {
         return (this.vidaAtual > 0)
     }
+
+    subirNivel () {
+        this.nivel =+ this.nivel + 1
+    }
+    
+    regenerarMana () {
+        if (this.manaAtual < this.manaMaxima*0.8){
+            this.manaAtual += this.manaMaxima*0.2
+        }
+    }
+
+    equiparArma (arma: string) {
+        this.arma = arma
+    }
+
+    lancarFeitico (custo: number) {
+        this.manaAtual = this.manaAtual - custo
+    }
+
+    receberDano (dano: number) {
+        this.vidaAtual = this.vidaAtual - dano
+        return this.vidaAtual
+    }
 }
