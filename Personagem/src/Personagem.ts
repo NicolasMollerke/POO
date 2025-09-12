@@ -48,7 +48,7 @@ export class Personagem{
         this.arma = arma
     }
 
-    lancarFeitico (custo: number) {
+    lancarFeitico (custo: number) { ''
         this.manaAtual = this.manaAtual - custo
     }
 
