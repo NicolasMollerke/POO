@@ -3,6 +3,7 @@ import { Item } from "./Item";
 import { Util } from "./Util";
 
 export class Pedido{
+    
     itens: Item[];
     cliente: Cliente;
     status: string;
@@ -28,7 +29,9 @@ export class Pedido{
     adicionarItem(item: Item){
         this.itens.push(item);
         this.atualizarValorPagar();
-
+        if(this.status == "Cancelado"){
+            throw new Error("Não é possível alterar um pedido cancelado");
+        }
     }
 
     obterCliente(): Cliente{
@@ -40,5 +43,13 @@ export class Pedido{
         for (const item of this.itens) {
             this.valorPagar += item.obterPrecoFinal()
         }
+    }
+
+    removerItem(codigo: string) {
+        this.itens = this.itens.filter(item => item.codigo !== codigo);
+        if(this.status == "Cancelado"){
+            throw new Error("Não é possível alterar um pedido cancelado");
+        }
+        this.atualizarValorPagar();
     }
 }

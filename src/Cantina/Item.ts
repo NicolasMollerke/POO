@@ -15,6 +15,9 @@ export class Item{
 
     aplicarDesconto(percentual: number): void{
         this.desconto = percentual;
+        if(this.desconto < 0 || this.desconto > 100){   
+            throw new Error("Percentual de desconto inválido");
+        }
     }
 
     obterPrecoFinal(){
