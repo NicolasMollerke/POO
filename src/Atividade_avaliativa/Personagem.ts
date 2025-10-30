@@ -1,7 +1,13 @@
-export class GenericModel{
-    protected _id: string = "";
-    protected _nome: string = "";
-    protected _criadoEm: Date = new Date();
-    protected _atualiadoEm: Date = new Date();
-    protected _removidoEm: Date | null = null;
+export class Personagem{
+    constructor(
+    protected _nome: string,
+    protected _forca: number,
+    protected _habilidadeMental: number,
+    protected _esquiva: number,
+    protected _resistencia: number,
+    protected _vidaAtual: number,
+    protected _vidaMaxima: number,
+    ){}
+    
+    
 }
