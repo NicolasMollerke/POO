@@ -1,0 +1,1 @@
+{"version":3,"file":"Cliente.d.ts","sourceRoot":"","sources":["../../src/Cantina/Cliente.ts"],"names":[],"mappings":"AAAA,qBAAa,OAAO;IAChB,IAAI,EAAE,MAAM,CAAC;IACb,QAAQ,EAAE,MAAM,CAAC;;IAOjB,iBAAiB,CAAC,YAAY,EAAE,MAAM;IAStC,eAAe,CAAC,QAAQ,EAAE,MAAM,GAAG,OAAO;IAI1C,YAAY,CAAC,IAAI,EAAE,MAAM,EAAE,QAAQ,EAAE,MAAM,GAAG,OAAO;CAQxD"}

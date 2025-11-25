@@ -1,0 +1,1 @@
+{"version":3,"file":"Aluno.d.ts","sourceRoot":"","sources":["../../src/Senac/Aluno.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,MAAM,EAAE,MAAM,UAAU,CAAC;AAElC,qBAAa,KAAM,SAAQ,MAAM;IAC7B,OAAO,CAAC,MAAM,CAAc;IAC5B,OAAO,CAAC,uBAAuB,CAAqB;IAEpD,OAAO;IAGP,MAAM,CAAC,cAAc,CAAC,IAAI,EAAE,MAAM,GAAG,KAAK;IAInC,KAAK,IAAI,MAAM;IAIf,YAAY;CAMtB"}

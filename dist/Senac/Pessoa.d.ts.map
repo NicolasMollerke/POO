@@ -1,0 +1,1 @@
+{"version":3,"file":"Pessoa.d.ts","sourceRoot":"","sources":["../../src/Senac/Pessoa.ts"],"names":[],"mappings":"AAAA,qBAAa,MAAM;IACf,SAAS,CAAC,KAAK,EAAE,MAAM,CAAC;IACxB,SAAS,CAAC,IAAI,EAAE,MAAM,CAAC;IACvB,SAAS,CAAC,SAAS,EAAE,MAAM,CAAC;IAC5B,SAAS,CAAC,YAAY,EAAE,MAAM,CAAC;gBAEnB,IAAI,EAAE,MAAM;IAQjB,KAAK,IAAI,MAAM;CAGzB"}
