@@ -1,4 +1,7 @@
 O Pequeno Príncipe;Antoine de Saint-Exupéry;9782070612758;1943
 1984;George Orwell;9780451524935;1949
 A Metamorfose;Franz Kafka;9789626342862;1915
+Dom Casmurro;Machado de Assis;1452175858611;1899
 Crime e Castigo;Fiodor Dostoievski;9786555305760;1866
+Dom Casmurro;Machado de Assis;5552368258522;1899
+O Senhor dos Anéis;J.R.R. Tolkien;9780261103252;1954

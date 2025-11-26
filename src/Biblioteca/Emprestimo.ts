@@ -88,7 +88,7 @@ export class Emprestimo {
             livros.splice(iL, 1);
 
             const dataEmprestimo = Util.gerarData();
-            const dataDevolucao = new Date(dataEmprestimo.getTime() + 7 * 24 * 60 * 60 * 1000);
+            const dataDevolucao = new Date(dataEmprestimo.getTime() + 7 * 24 * 60 * 60 * 1000); //somar 7 dias
                     
             return new Emprestimo(membroSelecionado.nome, livroSelecionado.titulo, dataEmprestimo, dataDevolucao)
     }

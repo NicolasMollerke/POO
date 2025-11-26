@@ -29,7 +29,7 @@ export class Livro {
         return this._ano;
     }
 
-    private alterarTitulo(tituloNovo: string) { //estavam privados mudei para acessar nos testes
+    private alterarTitulo(tituloNovo: string) {
         this._titulo = tituloNovo; 
     }
 
